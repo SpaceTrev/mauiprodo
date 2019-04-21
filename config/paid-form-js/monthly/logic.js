@@ -232,7 +232,7 @@ function submitToFirebase(e) {
 }
 
 function clearFormAndOpenPayWindow(){
-    setTimeout(() => window.open('https://maui-sustainable-solutions.myshopify.com/tools/checkout/buy_button/add_to_cart?p=3487788957782&v=27889067065430&g=96749&fn=1&ft=3&dp=$30.00&rdp=1&rup=3000'), 1000);
+    setTimeout(() => window.open('https://maui-sustainable-solutions.myshopify.com/tools/checkout/buy_button/add_to_cart?p=3487788957782&v=27889067065430&g=96749&fn=1&ft=3&dp=$30.00&rdp=1&rup=3000'), 1000); 
     document.getElementById('sustainForm').reset();
 }
 
