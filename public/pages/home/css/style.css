@@ -14,6 +14,18 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.dropdown-bois:hover {
+    color: #307b92 !important;
+}
+
+.dropdown-bois:focus {
+    color: #31b0d5 !important;
+}
+
+.dropdown-bois:active {
+    color: #31b0d5 !important;
+}
+
 .navbar {
     width: 100%;
     box-sizing: content-box;
@@ -29,6 +41,21 @@ body {
 
 .dropdown-menu {
     border: none !important;
+    z-index: 0;
+}
+
+.mobile-item:hover {
+    color: #307b92 !important;
+}
+
+.mobile-item:active {
+    background-color: none;
+    color: #31b0d5 !important;
+}
+
+.mobile-item:focus {
+    background-color: none;
+    color: #31b0d5!important;
 }
 
 .mastfoot {

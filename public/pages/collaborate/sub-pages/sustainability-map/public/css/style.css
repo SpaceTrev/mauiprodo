@@ -14,12 +14,24 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.dropdown-bois:hover {
+    color: #307b92 !important;
+}
+
+.dropdown-bois:focus {
+    color: #31b0d5 !important;
+}
+
+.dropdown-bois:active {
+    color: #31b0d5 !important;
+}
+
 .dropdown-menu {
     border: none !important;
 }
 
 .btn-info {
-    background-color: #31b0d5; 
+    background-color: #31b0d5;
 }
 
 .navbar-dark {
