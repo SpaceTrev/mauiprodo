@@ -14,12 +14,16 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.dropdown-menu {
+    border: none !important;
+}
+
 .navbar-dark {
     background-color: rgba(28, 28, 28, .4);
 }
 
 .btn-info {
-    background-color: #31b0d5; 
+    background-color: #31b0d5;
 }
 
 .mastfoot {
@@ -51,6 +55,15 @@ body {
 
 .navbar-brand {
     margin-left: 47px;
+}
+
+.navbar {
+    width: 100%;
+    box-sizing: content-box;
+}
+
+.navbar-toggler {
+    margin-right: 35px;
 }
 
 .navbar-nav {
@@ -130,6 +143,12 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+    .ml-auto {
+        margin-right: auto !important;
+    }
+    .mr-auto {
+        margin-left: auto !important;
+    }
     .navbar-brand {
         margin-left: 10px;
     }

@@ -15,11 +15,15 @@ body {
 }
 
 .btn-info {
-    background-color: #31b0d5; 
+    background-color: #31b0d5;
 }
 
 .navbar-dark {
     background-color: rgba(28, 28, 28, .4);
+}
+
+.dropdown-menu {
+    border: none !important;
 }
 
 .mastfoot {
@@ -90,6 +94,15 @@ body {
     text-shadow: .5px .5px #fff;
 }
 
+.navbar {
+    width: 100%;
+    box-sizing: content-box;
+}
+
+.navbar-toggler {
+    margin-right: 35px;
+}
+
 .intro-para {
     text-shadow: 1px 1px #31b0d5;
 }
@@ -130,6 +143,12 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+    .ml-auto {
+        margin-right: auto !important;
+    }
+    .mr-auto {
+        margin-left: auto !important;
+    }
     .navbar-brand {
         margin-left: 10px;
     }

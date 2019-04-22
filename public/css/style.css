@@ -31,6 +31,10 @@ body {
     margin-top: 10px;
 }
 
+.dropdown-menu {
+    border: none !important;
+}
+
 .link-style {
     text-decoration: none !important;
     color: rgba(220, 220, 220, .8);

@@ -14,6 +14,10 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.dropdown-menu {
+    border: none !important;
+}
+
 .btn-info {
     background-color: #31b0d5; 
 }
