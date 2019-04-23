@@ -26,11 +26,6 @@ body {
     color: #31b0d5 !important;
 }
 
-.navbar {
-    width: 100%;
-    box-sizing: content-box;
-}
-
 .navbar-toggler {
     margin-right: 35px;
 }
@@ -80,16 +75,6 @@ body {
 
 .navbar-nav {
     margin-right: 47px;
-}
-
-.statement-heading {
-    background-color: rgba(28, 28, 28, .6);
-    border-color: #31b0d5;
-}
-
-.statement-container {
-    display: flex;
-    flex-direction: row;
 }
 
 .coming-soon-container {

@@ -33,11 +33,11 @@ body {
 .btn-info {
     background-color: #31b0d5;
 }
-
+/* 
 .navbar {
     width: 100%;
     box-sizing: content-box;
-}
+} */
 
 .navbar-toggler {
     margin-right: 35px;

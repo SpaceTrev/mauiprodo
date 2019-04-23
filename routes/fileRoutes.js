@@ -85,6 +85,14 @@ module.exports = ((app) => {
     res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid/css/style.css"));
   });
 
+  app.get('/style-sustainability-map-monthly', function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid/monthly/css/style.css"));
+  });
+  
+  app.get('/style-sustainability-map-yearly', function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid/yearly/css/style.css"));
+  });
+
   app.get('/style-sustainability-map-signup-public', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/public/css/style.css"));
   });
@@ -134,22 +142,22 @@ module.exports = ((app) => {
   app.get('/instafeed-logic', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/media/js/script.js"));
   });
-  app.get('/shopify-logic-prod', function(req, res) {
+  app.get('/shopify-logic-prod', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/products/js/script.js"));
   });
-  app.get('/firebase-app', function(req, res) {
+  app.get('/firebase-app', function (req, res) {
     res.sendFile(path.join(__dirname, "../node_modules/firebase/firebase-app.js"));
   });
-  app.get('/firebase-database', function(req, res) {
+  app.get('/firebase-database', function (req, res) {
     res.sendFile(path.join(__dirname, "../node_modules/firebase/firebase-database.js"));
   });
-  app.get('/firebase-database-map', function(req, res) {
+  app.get('/firebase-database-map', function (req, res) {
     res.sendFile(path.join(__dirname, "../node_modules/firebase/firebase-database.js.map"));
   });
-  app.get('/dropdown-hack-js', function(req, res) {
+  app.get('/dropdown-hack-js', function (req, res) {
     res.sendFile(path.join(__dirname, "../config/dropdown-hack-js/script.js"));
   });
-   // Dependency Files
+  // Dependency Files
   // app.get('/bootstrap-css', function (req, res) {
   //   res.sendFile(path.join(__dirname, "../public/deps/bootstrap.css"));
   // });
@@ -165,7 +173,7 @@ module.exports = ((app) => {
   // app.get('/jquery-min', function (req, res) {
   //   res.sendFile(path.join(__dirname, "../public/deps/jquery.min.js"));
   // });
-  
+
 
 
 });

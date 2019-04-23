@@ -181,6 +181,11 @@ body {
     .navbar-nav {
         margin-right: 10px;
     }
+    .shopify-buy__btn {
+        font-size: 10px !important;
+        padding-top: 12px !important;
+        padding-bottom: 12px !important;
+    }
 }
 
 @media only screen and (max-width: 579px) {

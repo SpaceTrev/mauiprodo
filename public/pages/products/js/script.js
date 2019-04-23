@@ -59,15 +59,16 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
                                 ":focus": {
                                     "background-color": "#2c9ec0"
-                                }
+                                },
+                               
                             },
                             "quantityInput": {
                                 "font-size": "13px",
@@ -86,9 +87,9 @@
                         "styles": {
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -120,9 +121,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -229,9 +230,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -256,9 +257,9 @@
                         "styles": {
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -290,9 +291,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -399,9 +400,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -426,9 +427,9 @@
                         "styles": {
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -460,9 +461,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -569,9 +570,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -596,9 +597,9 @@
                         "styles": {
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -630,9 +631,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -739,9 +740,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -766,9 +767,9 @@
                         "styles": {
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -800,9 +801,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -909,9 +910,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -936,9 +937,9 @@
                         "styles": {
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -970,9 +971,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -1079,9 +1080,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -1106,9 +1107,9 @@
                         "styles": {
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -1140,9 +1141,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -1249,9 +1250,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -1276,9 +1277,9 @@
                         "styles": {
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -1310,9 +1311,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -1419,9 +1420,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -1446,9 +1447,9 @@
                         "styles": {
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },
@@ -1480,9 +1481,9 @@
                             },
                             "button": {
                                 "background-color": "#31b0d5",
-                                "font-size": "13px",
-                                "padding-top": "14.5px",
-                                "padding-bottom": "14.5px",
+                                "font-size": "10px",
+                                "padding-top": "12px",
+                                "padding-bottom": "12px",
                                 ":hover": {
                                     "background-color": "#2c9ec0"
                                 },

@@ -47,10 +47,9 @@ body {
     text-align: center;
 }
 
-.navbar {
+/* .navbar {
     width: 100%;
-    box-sizing: content-box;
-}
+} */
 
 .navbar-toggler {
     margin-right: 35px;
