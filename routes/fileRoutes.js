@@ -142,6 +142,9 @@ module.exports = ((app) => {
   app.get('/contact-form-logic', function (req, res) {
     res.sendFile(path.join(__dirname, "../config/contact-form-js/logic.js"));
   });
+  app.get('/club-makena-form-logic', function (req, res) {
+    res.sendFile(path.join(__dirname, "../config/club-makena-form-js/logic.js"));
+  });
   app.get('/instafeed-logic', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/media/js/script.js"));
   });

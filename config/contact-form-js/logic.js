@@ -28,11 +28,15 @@ function submitToFirebase(e) {
         Email: email,
         Message: message
     }).then(() => {
-        return document.getElementById('contact-form').reset();
+        return resetForm('contact-form');
     })
 
 }
 
 function getFormInput(id) {
     return [document.getElementById(id).name, document.getElementById(id).value]
+}
+
+function resetForm(id) {
+    return document.getElementById(id).reset() + console.log('document submitted sucessfully');
 }
