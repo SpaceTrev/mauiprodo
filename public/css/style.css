@@ -41,12 +41,12 @@ body {
 .cover-heading {
     color: #31b0d5 !important;
     margin-top: 10px;
-    text-shadow: .5px .5px #fff;
+    /* text-shadow: .5px .5px #fff; */
     font-size: 24px;
 }
 
 .intro-para {
-    text-shadow: 1px 1px #31b0d5;
+    /* text-shadow: 1px 1px #31b0d5; */
     margin-bottom: -5px;
     margin-right: 10px;
     margin-left: 10px;
