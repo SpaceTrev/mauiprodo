@@ -6,10 +6,6 @@ module.exports = ((app) => {
     res.sendFile(path.join(__dirname, "../public/index.html"));
   });
 
-  app.get("/home", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/pages/home/index.html"));
-  });
-
   app.get("/collaborate", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/collaborate/index.html"));
   });
@@ -65,12 +61,8 @@ module.exports = ((app) => {
   });
 
   // Style Files
-  app.get('/style-main', function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/css/style.css"));
-  });
-
   app.get('/style-home', function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/pages/home/css/style.css"));
+    res.sendFile(path.join(__dirname, "../public/css/style.css"));
   });
 
   app.get('/style-collaborate', function (req, res) {

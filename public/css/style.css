@@ -1,10 +1,10 @@
 html, body {
-    height: 100%;
     width: 100%;
+    height: 100%;
     max-height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(../resources/images/sugsithink.jpg);
+    background-image: url(../resources/images/blacksandorred.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: scroll;
@@ -26,8 +26,62 @@ body {
     color: #31b0d5 !important;
 }
 
+.statement-heading {
+    background-color: rgba(28, 28, 28, .6);
+    border-color: #31b0d5;
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+
+.statement-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.cover-heading {
+    color: #31b0d5 !important;
+    margin-top: 10px;
+    text-shadow: .5px .5px #fff;
+    font-size: 24px;
+}
+
+.intro-para {
+    text-shadow: 1px 1px #31b0d5;
+    margin-bottom: -5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar {
+    width: 100%;
+    box-sizing: content-box;
+}
+
 .navbar-dark {
     background-color: rgba(28, 28, 28, .5);
+}
+
+.navbar-toggler {
+    margin-right: 35px;
+}
+
+.dropdown-menu {
+    border: none !important;
+    z-index: 0;
+}
+
+.mobile-item:hover {
+    color: #307b92 !important;
+}
+
+.mobile-item:active {
+    background-color: none;
+    color: #31b0d5 !important;
+}
+
+.mobile-item:focus {
+    background-color: none;
+    color: #31b0d5!important;
 }
 
 .mastfoot {
@@ -35,7 +89,7 @@ body {
     bottom: 0;
     width: 100%;
     color: rgba(255, 255, 255, .8) !important;
-    background-color: rgba(28, 28, 28, .5) !important;
+    background-color: rgba(28, 28, 28, .5);
     text-align: center;
 }
 
@@ -43,8 +97,33 @@ body {
     margin-top: 10px;
 }
 
-.dropdown-menu {
-    border: none !important;
+.card {
+    border-color: #31b0d5;
+    background-color: rgba(28, 28, 28, .6);
+    padding: 30px;
+}
+
+.card-title {
+    color: #31b0d5;
+    /* text-shadow: .5px .5px #fff; */
+}
+
+.card-text {
+    color: #fff;
+    /* text-shadow: 1px 1px #31b0d5; */
+}
+
+.card-3 {
+    margin-top: 20px;
+}
+
+.card-4 {
+    margin-top: 20px;
+}
+
+.card-deck {
+    margin-top: 80px !important;
+    margin-bottom: 40px !important;
 }
 
 .link-style {
@@ -65,16 +144,6 @@ body {
     margin-right: 47px;
 }
 
-.statement-heading {
-    background-color: rgba(28, 28, 28, .6);
-    border-color: #31b0d5;
-}
-
-.statement-container {
-    display: flex;
-    flex-direction: row;
-}
-
 .btn-outline-light {
     color: #fff;
     border-color: #31b0d5;
@@ -86,28 +155,88 @@ body {
     border-color: #31b0d5;
 }
 
-.cover-heading {
-    color: #31b0d5 !important;
-    margin-top: 27px;
-    text-shadow: .5px .5px #fff;
+.btn-info {
+    background-color: #31b0d5;
 }
 
-.intro-para {
-    text-shadow: 1px 1px #31b0d5;
+@media only screen and (max-width: 1040px) {
+    .card {
+        padding: 0px !important;
+    }
+    .card-deck {
+        margin-top: 150px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+    .ml-auto {
+        margin-right: auto !important;
+    }
+    .mr-auto {
+        margin-left: auto !important;
+    }
     .navbar-brand {
         margin-left: 10px;
     }
     .navbar-nav {
         margin-right: 10px;
     }
+    .card-deck {
+        margin-top: 80px;
+    }
+    .card {
+        margin-top: 10px;
+    }
+    .card-text {
+        font-size: 16px;
+    }
+    .card-title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .card-3 {
+        margin-top: 0px;
+    }
+    .card-4 {
+        margin-top: 0px;
+    }
+    .card-deck {
+        margin-top: 40px !important;
+    }
 }
 
 @media only screen and (max-width: 579px) {
     .intro-para {
         font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .card-deck {
+        margin-top: -10px;
+    }
+    .card-text {
+        font-size: 14px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .card-button {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    .card-text {
+        font-size: 12px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .card-button {
+        font-size: 10px;
     }
 }
 
@@ -126,6 +255,9 @@ body {
     }
     .intro-para {
         font-size: 14px !important;
+    }
+    .card-text {
+        font-size: 11px;
     }
 }
 
