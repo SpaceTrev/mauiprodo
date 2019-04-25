@@ -26,6 +26,12 @@ body {
     color: #31b0d5 !important;
 }
 
+.coming-soon-container {
+    color: rgba(220, 220, 220, .8);
+    width: 300px;
+    padding: 20px;
+}
+
 /* 
 .navbar {
     width: 100%;
