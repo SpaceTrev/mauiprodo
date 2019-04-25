@@ -33,7 +33,7 @@ module.exports = ((app) => {
   });
 
   app.get("/club-makena", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/club-makena/index.html"));
+    res.sendFile(path.join(__dirname, "../public/pages/events/club-makena/index.html"));
   });
 
   app.get("/contact", function (req, res) {
@@ -42,6 +42,10 @@ module.exports = ((app) => {
 
   app.get("/events", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/events/index.html"));
+  });
+
+  app.get("/events-calendar", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/events/calendar/index.html"));
   });
 
   app.get("/maps", function (req, res) {
@@ -80,7 +84,7 @@ module.exports = ((app) => {
   app.get('/style-sustainability-map-monthly', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid/monthly/css/style.css"));
   });
-  
+
   app.get('/style-sustainability-map-yearly', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid/yearly/css/style.css"));
   });
@@ -94,11 +98,15 @@ module.exports = ((app) => {
   });
 
   app.get('/style-club-makena', function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/club-makena/css/style.css"));
+    res.sendFile(path.join(__dirname, "../public/pages/events/club-makena/css/style.css"));
   });
 
   app.get('/style-contact', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/contact/css/style.css"));
+  });
+
+  app.get('/style-calendar', function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/events/calendar/css/style.css"));
   });
 
   app.get('/style-events', function (req, res) {
