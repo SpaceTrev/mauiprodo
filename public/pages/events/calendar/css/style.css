@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
     max-height: 100%;
@@ -7,7 +8,7 @@ html, body {
     background-image: url(../../../../resources/images/Bigs.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 body {
@@ -26,11 +27,13 @@ body {
     color: #31b0d5 !important;
 }
 
+
 /* 
 .navbar {
     width: 100%;
     box-sizing: content-box;
 } */
+
 
 /* .navbar-toggler {
     margin-right: 35px;

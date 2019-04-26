@@ -7,7 +7,7 @@ html, body {
     background-image: url(../resources/images/blacksandorred.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 body {
