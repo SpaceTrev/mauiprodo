@@ -8,7 +8,9 @@ body {
     background-image: url(../../../resources/images/kam3viw.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    ;
 }
 
 body {
