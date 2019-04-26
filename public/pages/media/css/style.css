@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     height: 100%;
     width: 100%;
     max-height: 100%;
@@ -45,13 +44,11 @@ body {
     background-color: rgba(28, 28, 28, .5);
 }
 
-
 /* 
 .navbar {
     width: 100%;
     box-sizing: content-box;
 } */
-
 
 /* .navbar-toggler {
     margin-right: 35px;
@@ -85,6 +82,7 @@ body {
 
 .instafeed {
     background-color: rgba(28, 28, 28, .6);
+    margin-top: -50px;
 }
 
 .insta-border {
@@ -94,6 +92,7 @@ body {
     margin: 0 auto;
     height: 70px;
     width: 300px !important;
+    margin-top: -20px !important;
 }
 
 .container:hover .overlayd {
@@ -198,9 +197,9 @@ body {
     background-color: rgba(28, 28, 28, .6);
 }
 
-.card-deck {
+/* .card-deck {
     margin-top: 150px;
-}
+} */
 
 .card-title {
     color: #31b0d5;
@@ -225,11 +224,14 @@ body {
     .navbar-nav {
         margin-right: 10px;
     }
-    .card-deck {
+    /* .card-deck {
         margin-top: 80px;
-    }
+    } */
     .card {
         margin-top: 10px;
+    }
+    .insta-border {
+        margin-top: 0px !important;
     }
 }
 
