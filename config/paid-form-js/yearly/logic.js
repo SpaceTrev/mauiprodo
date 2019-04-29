@@ -232,7 +232,6 @@ function submitToFirebase(e) {
 }
 
 function clearFormAndOpenPayWindow(){
-    window.open('https://maui-sustainable-solutions.myshopify.com/tools/checkout/buy_button/add_to_cart?p=3487790628950&v=27889082564694&g=97301&fn=1&ft=5&dp=$550.00&rdp=1&rup=55000');
     document.getElementById('sustainForm').reset();
 }
 
