@@ -146,11 +146,7 @@ body {
 .cover-heading {
     color: #31b0d5 !important;
     margin-top: 27px;
-    text-shadow: .5px .5px #fff;
-}
-
-.intro-para {
-    text-shadow: 1px 1px #31b0d5;
+    /* text-shadow: .5px .5px #fff; */
 }
 
 .card {
