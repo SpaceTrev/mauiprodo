@@ -64,6 +64,11 @@ module.exports = ((app) => {
     res.sendFile(path.join(__dirname, "../public/pages/products/index.html"));
   });
 
+  app.get("/react", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/react-test/index.html"));
+  });
+
+
   // Style Files
   app.get('/style-home', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/css/style.css"));
@@ -160,8 +165,8 @@ module.exports = ((app) => {
   app.get('/firebase-database-map', function (req, res) {
     res.sendFile(path.join(__dirname, "../node_modules/firebase/firebase-database.js.map"));
   });
-  app.get('/dropdown-hack-js', function (req, res) {
-    res.sendFile(path.join(__dirname, "../config/dropdown-hack-js/script.js"));
+  app.get('/react-test', function (req, res) {
+    res.sendFile(path.join(__dirname, "../config/components/collaborate/script.js"));
   });
   // Dependency Files
   // app.get('/bootstrap-css', function (req, res) {
