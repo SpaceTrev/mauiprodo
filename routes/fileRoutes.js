@@ -165,6 +165,11 @@ module.exports = ((app) => {
   app.get('/firebase-database-map', function (req, res) {
     res.sendFile(path.join(__dirname, "../node_modules/firebase/firebase-database.js.map"));
   });
+  // json sitemap
+  app.get('/sitemap.xml', function(req, res) {
+    res.sendFile(path.join(__dirname, "../sitemap/sitemap.xml"));
+    
+  });
   // app.get('/react-test', function (req, res) {
   //   res.sendFile(path.join(__dirname, "../config/components/collaborate/script.js"));
   // });
