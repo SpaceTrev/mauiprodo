@@ -14,14 +14,8 @@ module.exports = ((app) => {
     res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/index.html"));
   });
 
-  app.get("/sustainability-map-price-tiers", function (req, res) {
+  app.get("/sustainability-map-signup-paid", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid/index.html"));
-  });
-  app.get("/sustainability-map-monthly", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid/monthly/index.html"));
-  });
-  app.get("/sustainability-map-yearly", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid/yearly/index.html"));
   });
 
   app.get("/sustainability-map-signup-public", function (req, res) {
@@ -64,6 +58,14 @@ module.exports = ((app) => {
     res.sendFile(path.join(__dirname, "../public/pages/products/index.html"));
   });
 
+  app.get("/thanks", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/aftersub/thanks/index.html"))
+  })
+
+  app.get("/need-help", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/aftersub/help/index.html"))
+  })
+
   // app.get("/react", function (req, res) {
   //   res.sendFile(path.join(__dirname, "../public/pages/react-test/index.html"));
   // });
@@ -84,14 +86,6 @@ module.exports = ((app) => {
 
   app.get('/style-sustainability-map-signup-paid', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid/css/style.css"));
-  });
-
-  app.get('/style-sustainability-map-monthly', function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid/monthly/css/style.css"));
-  });
-
-  app.get('/style-sustainability-map-yearly', function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid/yearly/css/style.css"));
   });
 
   app.get('/style-sustainability-map-signup-public', function (req, res) {
@@ -134,45 +128,60 @@ module.exports = ((app) => {
     res.sendFile(path.join(__dirname, "../public/pages/products/css/style.css"));
   });
 
+  app.get("/thanks-style", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/aftersub/thanks/css/style.css"))
+  });
+  
+  app.get("/help-style", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/aftersub/help/css/style.css"))
+  });
+
+
   // Javascript Files
-  app.get('/paid-form-monthly', function (req, res) {
-    res.sendFile(path.join(__dirname, "../config/paid-form-js/monthly/logic.js"));
+
+  app.get('/paid-form', function (req, res) {
+    res.sendFile(path.join(__dirname, "../config/paid-form-js/logic.js"));
   });
-  app.get('/paid-form-yearly', function (req, res) {
-    res.sendFile(path.join(__dirname, "../config/paid-form-js/yearly/logic.js"));
-  });
+
   app.get('/public-form-logic', function (req, res) {
     res.sendFile(path.join(__dirname, "../config/public-form-js/logic.js"));
   });
+
   app.get('/contact-form-logic', function (req, res) {
     res.sendFile(path.join(__dirname, "../config/contact-form-js/logic.js"));
   });
+
   app.get('/club-makena-form-logic', function (req, res) {
     res.sendFile(path.join(__dirname, "../config/club-makena-form-js/logic.js"));
   });
+
   app.get('/instafeed-logic', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/media/js/script.js"));
   });
+
   app.get('/shopify-logic-prod', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/products/js/script.js"));
   });
+
   app.get('/firebase-app', function (req, res) {
     res.sendFile(path.join(__dirname, "../node_modules/firebase/firebase-app.js"));
   });
+
   app.get('/firebase-database', function (req, res) {
     res.sendFile(path.join(__dirname, "../node_modules/firebase/firebase-database.js"));
   });
+
   app.get('/firebase-database-map', function (req, res) {
     res.sendFile(path.join(__dirname, "../node_modules/firebase/firebase-database.js.map"));
   });
+
   // xml sitemap
-  app.get('/sitemap.xml', function(req, res) {
+  app.get('/sitemap.xml', function (req, res) {
     res.sendFile(path.join(__dirname, "../sitemap/sitemap.xml"));
-    
   });
 
   // button image
-  app.get('/subscribenowbtn.png', function(req, res) {
+  app.get('/subscribenowbtn.png', function (req, res) {
     res.sendFile(path.join(__dirname, '../public/resources/paypal/subscribenowbtn.png'))
   })
   // app.get('/react-test', function (req, res) {

@@ -4,7 +4,7 @@ html, body {
     max-height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(../../../../../../resources/images/sugsithink.jpg);
+    background-image: url(../../../resources/images/sugsithink.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -16,24 +16,9 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.dropdown-bois:hover {
-    color: #307b92 !important;
-}
-
-.dropdown-bois:focus {
-    color: #31b0d5 !important;
-}
-
-.dropdown-bois:active {
-    color: #31b0d5 !important;
-}
-
-/* .navbar-toggler {
-    margin-right: 35px;
-} */
-
-.btn-info {
-    background-color: #31b0d5;
+.card-button {
+    margin-right: 2px;
+    margin-left: 2px;
 }
 
 .btn-info span {
@@ -62,8 +47,20 @@ body {
 }
 
 .btn-info:active {
-background-color: #307B92;
+    background-color: #307B92;
     transform: translateY(4px);
+}
+
+.dropdown-bois:hover {
+    color: #307b92 !important;
+}
+
+.dropdown-bois:focus {
+    color: #31b0d5 !important;
+}
+
+.dropdown-bois:active {
+    color: #31b0d5 !important;
 }
 
 .dropdown-menu {
@@ -72,6 +69,10 @@ background-color: #307B92;
 
 .navbar-dark {
     background-color: rgba(28, 28, 28, .4);
+}
+
+.btn-info {
+    background-color: #31b0d5;
 }
 
 .mastfoot {
@@ -97,16 +98,35 @@ background-color: #307B92;
     color: #31b0d5;
 }
 
-/* .navbar {
+.navbar {
     margin-top: -24px;
-} */
+}
 
 .navbar-brand {
     margin-left: 47px;
 }
 
+.navbar {
+    width: 100%;
+    box-sizing: content-box;
+}
+
+.navbar-toggler {
+    margin-right: 35px;
+}
+
 .navbar-nav {
     margin-right: 47px;
+}
+
+.statement-heading {
+    background-color: rgba(28, 28, 28, .6);
+    border-color: #31b0d5;
+}
+
+.statement-container {
+    display: flex;
+    flex-direction: row;
 }
 
 .coming-soon-container {
