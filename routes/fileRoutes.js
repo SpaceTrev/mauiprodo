@@ -170,6 +170,11 @@ module.exports = ((app) => {
     res.sendFile(path.join(__dirname, "../sitemap/sitemap.xml"));
     
   });
+
+  // button image
+  app.get('/subscribenowbtn.png', function(req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/paypal/subscribenowbtn.png'))
+  })
   // app.get('/react-test', function (req, res) {
   //   res.sendFile(path.join(__dirname, "../config/components/collaborate/script.js"));
   // });

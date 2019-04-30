@@ -72,8 +72,8 @@ body {
     overflow: hidden;
     width: 100%;
     height: 0;
-    -webkit-transition: 1s ease;
-    transition: 1s ease;
+    -webkit-transition: .6s linear;
+    transition: .6s linear;
 }
 
 .btn-gram {
