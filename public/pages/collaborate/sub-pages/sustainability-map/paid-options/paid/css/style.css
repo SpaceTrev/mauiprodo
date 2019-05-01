@@ -4,7 +4,7 @@ html, body {
     max-height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(../../../../../../resources/images/sugsithink.jpg);
+    background-image: url(../../../../../../../resources/images/sugsithink.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -16,6 +16,13 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.text-paypal {
+    color: #fff !important;
+}
+.pay-pal-btn {
+    height: 38px !important;
+    width: 96px !important;
+}
 .dropdown-bois:hover {
     color: #307b92 !important;
 }

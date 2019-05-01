@@ -15,7 +15,11 @@ module.exports = ((app) => {
   });
 
   app.get("/sustainability-map-signup-paid", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid/index.html"));
+    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid-options/paid/index.html"));
+  });
+
+  app.get("/sustainability-map-paid-options", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid-options/index.html"));
   });
 
   app.get("/sustainability-map-signup-public", function (req, res) {
@@ -85,7 +89,7 @@ module.exports = ((app) => {
   });
 
   app.get('/style-sustainability-map-signup-paid', function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid/css/style.css"));
+    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid-options/paid/css/style.css"));
   });
 
   app.get('/style-sustainability-map-signup-public', function (req, res) {
@@ -134,6 +138,10 @@ module.exports = ((app) => {
   
   app.get("/help-style", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/aftersub/help/css/style.css"))
+  });
+
+  app.get("/paid-options-style", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid-options/css/style.css"));
   });
 
 
