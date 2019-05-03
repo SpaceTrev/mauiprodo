@@ -54,6 +54,10 @@ module.exports = ((app) => {
     res.sendFile(path.join(__dirname, "../public/pages/media/index.html"));
   });
 
+  // app.get("/media-example", function (req, res) {
+  //   res.sendFile(path.join(__dirname, "../public/pages/media/example.html"));
+  // });
+
   app.get("/mission", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/mission/index.html"));
   });
@@ -146,7 +150,7 @@ module.exports = ((app) => {
   app.get("/thanks-style", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/aftersub/thanks/css/style.css"))
   });
-  
+
   app.get("/help-style", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/aftersub/help/css/style.css"))
   });
