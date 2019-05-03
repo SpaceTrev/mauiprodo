@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset>
   <url>
     <loc>https://www.mauisustainablesolutions.com/</loc>
   </url>
@@ -37,15 +37,9 @@
     <loc>https://www.mauisustainablesolutions.com/events-calendar</loc>
   </url>
   <url>
-    <loc>https://www.mauisustainablesolutions.com/sustainability-map-price-tiers</loc>
+    <loc>https://www.mauisustainablesolutions.com/sustainability-map-paid-options</loc>
   </url>
   <url>
     <loc>https://www.mauisustainablesolutions.com/sustainability-map-signup-public</loc>
-  </url>
-  <url>
-    <loc>https://www.mauisustainablesolutions.com/sustainability-map-monthly</loc>
-  </url>
-  <url>
-    <loc>https://www.mauisustainablesolutions.com/sustainability-map-yearly</loc>
   </url>
 </urlset>
