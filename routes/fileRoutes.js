@@ -69,7 +69,18 @@ module.exports = ((app) => {
   app.get("/need-help", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/aftersub/help/index.html"))
   })
-
+  app.get("/early-adopters-help", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/aftersub/discount/earlyadopters/index.html"))
+  })
+  app.get("/first-three-free-help", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/aftersub/discount/firsthreefree/index.html"))
+  })
+  app.get("/first-three-free", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/discounts/first-three-free/index.html"))
+  })
+  app.get("/early-adopters", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/discounts/early-adopters/index.html"))
+  })
   // app.get("/react", function (req, res) {
   //   res.sendFile(path.join(__dirname, "../public/pages/react-test/index.html"));
   // });
