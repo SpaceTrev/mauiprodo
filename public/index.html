@@ -11,6 +11,25 @@
   <!-- <script src="/hide-url-mobile"></script> -->
   <script src="./deps/jquery.min.js" type="text/javascript"></script>
   <script src="./deps/bootstrap.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    function onReady(callback) {
+      var intervalId = window.setInterval(function () {
+        if (document.getElementsByTagName('body')[0] !== undefined) {
+          window.clearInterval(intervalId);
+          callback.call(this);
+        }
+      }, 1000);
+    }
+
+    function setVisible(selector, visible) {
+      document.querySelector(selector).style.display = visible ? 'block' : 'none';
+    }
+
+    onReady(function () {
+      setVisible('.page', true);
+      setVisible('#loading', false);
+    });
+  </script>
 
   <title>Maui Sustainable Solutions</title>
 </head>
@@ -48,78 +67,84 @@
       </ul>
     </div>
   </nav>
-  <div class="container statement-container content">
-    <div
-      class="card mx-auto col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11 statement-heading rounded text-light text-center">
-      <h2 class="cover-heading">Maui Sustainable Solutions</h2>
-      <p class="intro-para lead">
-        Collaborating and creating positive change for a sustainable Maui. Areas of impact include: Water, Energy,
-        Health, Recycling, Composting and Transportation</p>
-      </p>
-    </div>
-  </div>
-  <div class="card-deck">
-    <div class="col-lg-5 col-md-5 col-sm-10 col-12 d-flex ml-auto card-1">
-      <div class="card text-center card-left">
-        <div class="card-body">
-          <h2 class="card-title">Collaborate</h2>
-          <p class="card-text">
-            Join the MSS Network to collaborate with businesses, non profits & individuals to create Maui’s Sustainable
-            Solutions!
-            Awareness, Education, Action!
-          </p>
-          <a class="btn btn-info card-button" href="/collaborate"> <span>Go</span></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-5 col-md-5 col-sm-10 col-12 d-flex mr-auto card-2">
-      <div class="card text-center card-right">
-        <div class="card-body">
-          <h2 class="card-title">Maps</h2>
-          <p class="card-text">
-            Sustainability map for Maui, list of locations for: Water Refill,
-            Recycling, Composting, Plastic Free Businesses & EV mission coming 2020.
-          </p>
-          <a href="/maps" class="btn btn-info card-button"><span>Under Construction</span></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-5 col-md-5 col-sm-10 col-12 d-flex ml-auto card-3">
-      <div class="card text-center card-left">
-        <div class="card-body">
-          <h2 class="card-title">Products</h2>
-          <p class="card-text">
-            Rent or Buy our Reusable Products: Eco Kits, Water Bottles,
-            Tumblers, Reusable Containers.
-          </p>
-          <a href="/products" class="btn btn-info card-button"><span>Go</span></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-5 col-md-5 col-sm-10 col-12 d-flex mr-auto card-4">
-      <div class="card text-center card-right">
-        <div class="card-body">
-          <h2 class="card-title">Events</h2>
-          <p class="card-text">
-            Beach clean ups, community events, sustainability meet ups & other eco-friendly events on Maui.
-          </p>
-          <a href="/events" class="btn btn-info card-button"><span>Under Construction</span></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br> <br> <br>
+  <div id="loading"></div>
 
-  <div class="mastfoot conver">
-    <div class="inner">
-      <p class="footer-link">
-        Built for
-        <a class="link-style" href="https://www.mauisustainablesolutions.com">MauiSustainableSolutions
-        </a>
-        by
-        <a class="link-style" href="https://spacetrev.github.io">SpaceTrev</a>.
-      </p>
+  <div class="page">
+    <div class="container statement-container content">
+      <div
+        class="card mx-auto col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11 statement-heading rounded text-light text-center">
+        <h2 class="cover-heading">Maui Sustainable Solutions</h2>
+        <p class="intro-para lead">
+          Collaborating and creating positive change for a sustainable Maui. Areas of impact include: Water, Energy,
+          Health, Recycling, Composting and Transportation</p>
+        </p>
+      </div>
     </div>
+    <div class="card-deck">
+      <div class="col-lg-5 col-md-5 col-sm-10 col-12 d-flex ml-auto card-1">
+        <div class="card text-center card-left">
+          <div class="card-body">
+            <h2 class="card-title">Collaborate</h2>
+            <p class="card-text">
+              Join the MSS Network to collaborate with businesses, non profits & individuals to create Maui’s
+              Sustainable
+              Solutions!
+              Awareness, Education, Action!
+            </p>
+            <a class="btn btn-info card-button" href="/collaborate"> <span>Go</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-10 col-12 d-flex mr-auto card-2">
+        <div class="card text-center card-right">
+          <div class="card-body">
+            <h2 class="card-title">Maps</h2>
+            <p class="card-text">
+              Sustainability map for Maui, list of locations for: Water Refill,
+              Recycling, Composting, Plastic Free Businesses & EV mission coming 2020.
+            </p>
+            <a href="/maps" class="btn btn-info card-button"><span>Under Construction</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-10 col-12 d-flex ml-auto card-3">
+        <div class="card text-center card-left">
+          <div class="card-body">
+            <h2 class="card-title">Products</h2>
+            <p class="card-text">
+              Rent or Buy our Reusable Products: Eco Kits, Water Bottles,
+              Tumblers, Reusable Containers.
+            </p>
+            <a href="/products" class="btn btn-info card-button"><span>Go</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-10 col-12 d-flex mr-auto card-4">
+        <div class="card text-center card-right">
+          <div class="card-body">
+            <h2 class="card-title">Events</h2>
+            <p class="card-text">
+              Beach clean ups, community events, sustainability meet ups & other eco-friendly events on Maui.
+            </p>
+            <a href="/events" class="btn btn-info card-button"><span>Under Construction</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br> <br> <br>
+
+    <div class="mastfoot conver">
+      <div class="inner">
+        <p class="footer-link">
+          Built for
+          <a class="link-style" href="https://www.mauisustainablesolutions.com">MauiSustainableSolutions
+          </a>
+          by
+          <a class="link-style" href="https://spacetrev.github.io">SpaceTrev</a>.
+        </p>
+      </div>
+    </div>
+
   </div>
 
 </body>

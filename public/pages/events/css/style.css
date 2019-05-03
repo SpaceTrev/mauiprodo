@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     width: 100%;
     height: 100%;
     max-height: 100%;
@@ -15,6 +14,24 @@ body {
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page {
+    display: none;
+}
+
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("../resources/gifs/773.gif");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .dropdown-bois:hover {
@@ -35,7 +52,6 @@ body {
 
 .navbar-dark {
     background-color: rgba(28, 28, 28, .8);
-    
 }
 
 .btn-info {
@@ -96,7 +112,6 @@ body {
     text-decoration: none !important;
     color: #31b0d5;
 }
-
 
 /* .navbar {
     margin-top: -24px;
