@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     max-height: 100%;
@@ -9,11 +10,11 @@ html, body {
     background-repeat: no-repeat;
     overflow-x: hidden;
     overflow-y: scroll;
-    ;
 }
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-height: 100%;
 }
 
 .btn-info span {
@@ -42,7 +43,7 @@ body {
 }
 
 .btn-info:active {
-background-color: #307B92;
+    background-color: #307B92;
     transform: translateY(4px);
 }
 
@@ -63,7 +64,7 @@ background-color: #307B92;
 }
 
 .navbar-dark {
-    background-color: rgba(28, 28, 28, .4);
+    background-color: rgba(28, 28, 28, .8);
 }
 
 .btn-info {
@@ -71,16 +72,18 @@ background-color: #307B92;
 }
 
 .mastfoot {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 0 !important;
     width: 100%;
     color: rgba(255, 255, 255, .8) !important;
-    background-color: rgba(28, 28, 28, .4);
+    background-color: rgba(28, 28, 28, .8);
     text-align: center;
+    /* margin-bottom: -15px; */
 }
 
 .footer-link {
     margin-top: 10px;
+    /* padding: 20px; */
 }
 
 .link-style {

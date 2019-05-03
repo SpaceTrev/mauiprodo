@@ -50,16 +50,18 @@ body {
 }
 
 .mastfoot {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 0 !important;
     width: 100%;
     color: rgba(255, 255, 255, .8) !important;
-    background-color: rgba(28, 28, 28, .5);
+    background-color: rgba(28, 28, 28, .8);
     text-align: center;
+    /* margin-bottom: -15px; */
 }
 
 .footer-link {
     margin-top: 10px;
+    /* padding: 20px; */
 }
 
 .link-style {

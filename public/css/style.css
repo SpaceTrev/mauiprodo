@@ -10,11 +10,11 @@ body {
     background-repeat: no-repeat;
     overflow-x: hidden;
     overflow-y: scroll;
-    ;
 }
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-height: 100%;
 }
 
 .dropdown-bois:hover {
@@ -37,8 +37,7 @@ body {
 }
 
 .statement-container {
-    display: flex;
-    flex-direction: row;
+    margin-top: 80px;
 }
 
 .cover-heading {
@@ -57,16 +56,18 @@ body {
 
 .navbar {
     width: 100%;
-    box-sizing: content-box;
+    z-index: 1;
+    position: fixed;
 }
 
 .navbar-dark {
-    background-color: rgba(28, 28, 28, .5);
+    background-color: rgba(28, 28, 28, .8) !important;
 }
 
-.navbar-toggler {
+
+/* .navbar-toggler {
     margin-right: 35px;
-}
+} */
 
 .dropdown-menu {
     border: none !important;
@@ -88,16 +89,18 @@ body {
 }
 
 .mastfoot {
-    position: fixed;
-    bottom: 0;
+    position: sticky;
+    bottom: 0 !important;
     width: 100%;
     color: rgba(255, 255, 255, .8) !important;
-    background-color: rgba(28, 28, 28, .5);
+    background-color: rgba(28, 28, 28, .8);
     text-align: center;
+    margin-bottom: -16px;
 }
 
 .footer-link {
     margin-top: 10px;
+    padding: 15px;
 }
 
 .card {
@@ -162,34 +165,37 @@ body {
     background-color: #31b0d5;
     /* box-shadow: 0 3px #999; */
 }
+
 .btn-info span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
-  
-  .btn-info span:after {
+}
+
+.btn-info span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
-  }
-  
-  .btn-info:hover span {
+}
+
+.btn-info:hover span {
     padding-right: 25px;
-  }
-  
-  .btn-info:hover span:after {
+}
+
+.btn-info:hover span:after {
     opacity: 1;
     right: 0;
-  }
-  .btn-info:active {
-background-color: #307B92;
+}
+
+.btn-info:active {
+    background-color: #307B92;
     transform: translateY(4px);
-  }
+}
+
 @media only screen and (max-width: 1040px) {
     .card {
         padding: 0px !important;

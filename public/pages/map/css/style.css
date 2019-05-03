@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
     max-height: 100%;
@@ -35,11 +36,13 @@ body {
     /* margin-bottom: 20px; */
 }
 
+
 /* 
 .navbar {
     width: 100%;
     box-sizing: content-box;
 } */
+
 
 /* .navbar-toggler {
     margin-right: 35px;
@@ -84,7 +87,7 @@ body {
 }
 
 .navbar-dark {
-    background-color: rgba(28, 28, 28, .5);
+    background-color: rgba(28, 28, 28, .8);
 }
 
 #gmap_canvas {
@@ -100,13 +103,14 @@ iframe {
     bottom: 0;
     width: 100%;
     color: rgba(255, 255, 255, .8) !important;
-    background-color: rgba(28, 28, 28, .5);
+    background-color: rgba(28, 28, 28, .8);
     text-align: center;
     margin-top: 50px;
 }
 
 .footer-link {
     margin-top: 10px;
+    /* padding: 20px; */
 }
 
 .link-style {
@@ -224,7 +228,6 @@ iframe {
     iframe {
         height: 500px;
     }
-    
 }
 
 @media only screen and (max-width: 579px) {
@@ -273,7 +276,6 @@ iframe {
     iframe {
         height: 450px;
     }
-    
 }
 
 @media only screen and (max-width: 416px) {
