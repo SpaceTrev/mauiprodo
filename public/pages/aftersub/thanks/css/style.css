@@ -118,9 +118,9 @@ body {
     color: #31b0d5;
 }
 
-/* .navbar {
+.navbar {
     margin-top: -24px;
-} */
+}
 
 .dropdown .dropdown-menu {
     -webkit-transition: all 0.3s;

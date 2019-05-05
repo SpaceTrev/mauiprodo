@@ -197,12 +197,15 @@ module.exports = ((app) => {
   app.get('/firebase-database-map', function (req, res) {
     res.sendFile(path.join(__dirname, "../node_modules/firebase/firebase-database.js.map"));
   });
+
   app.get('/firebase-map', function (req, res) {
     res.sendFile(path.join(__dirname, "../node_modules/firebase/firebase-app.js.map"));
   });
-  app.get('/hide-url-mobile', function (req, res) {
-    res.sendFile(path.join(__dirname, "../config/hideurlmobile/logic.js"));
-  });
+
+  // app.get('/hide-url-mobile', function (req, res) {
+  //   res.sendFile(path.join(__dirname, "../config/hideurlmobile/logic.js"));
+  // });
+
 
   // xml sitemap
   app.get('/sitemap.xml', function (req, res) {
