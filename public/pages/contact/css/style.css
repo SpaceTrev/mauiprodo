@@ -61,7 +61,7 @@ body {
 }
 
 .navbar-dark {
-    background-color: rgba(28, 28, 28, .5);
+    background-color: rgba(28, 28, 28, .8);
 }
 
 .btn-info {
@@ -166,6 +166,12 @@ body {
 
 .nav-link:hover {
     color: #307b92 !important;
+}
+
+.navbar {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
 }
 
 .navbar-brand {
