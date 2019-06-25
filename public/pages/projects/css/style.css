@@ -74,7 +74,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgba(192, 192, 192, 0.5);
-  background-image: url("../resources/gifs/773.gif");
+  background-image: url("/773.gif");
   background-repeat: no-repeat;
   background-position: center;
 }

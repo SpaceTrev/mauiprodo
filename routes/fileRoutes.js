@@ -177,6 +177,9 @@ module.exports = ((app) => {
   app.get('/club-makena-form-logic', function (req, res) {
     res.sendFile(path.join(__dirname, "../config/club-makena-form-js/logic.js"));
   });
+  // app.get('/firebaseConfig', function (req, res) {
+  //   res.sendFile(path.join(__dirname, "../config/firebase.js"));
+  // });
 
   app.get('/instafeed-logic', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/media/js/script.js"));
@@ -202,15 +205,12 @@ module.exports = ((app) => {
     res.sendFile(path.join(__dirname, "../node_modules/firebase/firebase-app.js.map"));
   });
 
-  // app.get('/hide-url-mobile', function (req, res) {
-  //   res.sendFile(path.join(__dirname, "../config/hideurlmobile/logic.js"));
-  // });
-
-
   // xml sitemap
   app.get('/sitemap.xml', function (req, res) {
     res.sendFile(path.join(__dirname, "../sitemap/sitemap.xml"));
   });
+
+  // images 
 
   // button image
   app.get('/subscribenowbtn.png', function (req, res) {
@@ -221,26 +221,30 @@ module.exports = ((app) => {
   app.get('/manifest.json', function (req, res) {
     res.sendFile(path.join(__dirname, '../manifest/manifest.json'))
   })
-  // app.get('/react-test', function (req, res) {
-  //   res.sendFile(path.join(__dirname, "../config/components/collaborate/script.js"));
-  // });
   // Dependency Files
-  // app.get('/bootstrap-css', function (req, res) {
-  //   res.sendFile(path.join(__dirname, "../public/deps/bootstrap.css"));
-  // });
-  // app.get('/bootstrap-js', function (req, res) {
-  //   res.sendFile(path.join(__dirname, "../public/deps/bootstrap.js"));
-  // });
-  // app.get('/bootstrap-css-map', function (req, res) {
-  //   res.sendFile(path.join(__dirname, "../public/deps/bootstrap.css.map"));
-  // });
-  // app.get('/instafeed-js', function (req, res) {
-  //   res.sendFile(path.join(__dirname, "../public/deps/instafeed.min.js"));
-  // });
-  // app.get('/jquery-min', function (req, res) {
-  //   res.sendFile(path.join(__dirname, "../public/deps/jquery.min.js"));
-  // });
+  app.get('/bootstrapCSS', function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/deps/bootstrap.css"));
+  });
+  app.get('/bootstrapJS', function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/deps/bootstrap.js"));
+  });
+  app.get('/bootstrapCSSMap', function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/deps/bootstrap.css.map"));
+  });
+  app.get('/instafeedJS', function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/deps/instafeed.min.js"));
+  });
+  app.get('/jqueryMINjs', function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/deps/jquery.min.js"));
+  });
+  app.get('/magnificMIN', function (req, res) {
+    res.sendFile(path.join(__dirname, "  ../public/deps/magnific.min.js"));
+  });
 
+  // Gif Image
+  app.get('/773.gif', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/gifs/773.gif'))
+  })
 
 
 });
