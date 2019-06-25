@@ -107,6 +107,7 @@ body {
 }
 p.footer-link {
     margin-bottom: 0px;
+
 }
 
 .dropdown .dropdown-menu {
@@ -299,6 +300,9 @@ p.footer-link {
     }
     .card-button {
         font-size: 10px;
+    }
+    .insta-border {
+        margin-top: 80px !important;
     }
 }
 
