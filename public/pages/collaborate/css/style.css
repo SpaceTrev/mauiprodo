@@ -4,11 +4,11 @@ html, body {
     max-height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(../../../resources/images/sugsithink.jpg);
+    background-image: linear-gradient(#28CEFE, #1FA627);
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 body {

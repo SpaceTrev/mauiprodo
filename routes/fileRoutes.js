@@ -58,8 +58,8 @@ module.exports = ((app) => {
   //   res.sendFile(path.join(__dirname, "../public/pages/media/example.html"));
   // });
 
-  app.get("/mission", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/pages/mission/index.html"));
+  app.get("/projects", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/projects/index.html"));
   });
 
   app.get("/products", function (req, res) {
@@ -91,7 +91,7 @@ module.exports = ((app) => {
 
 
   // Style Files
-  app.get('/style-home', function (req, res) {
+  app.get('/style-mission', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/css/style.css"));
   });
 
@@ -139,8 +139,8 @@ module.exports = ((app) => {
     res.sendFile(path.join(__dirname, "../public/pages/media/css/style.css"));
   });
 
-  app.get('/style-mission', function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/pages/mission/css/style.css"));
+  app.get('/style-proj', function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/projects/css/style.css"));
   });
 
   app.get('/style-products', function (req, res) {
@@ -215,6 +215,11 @@ module.exports = ((app) => {
   // button image
   app.get('/subscribenowbtn.png', function (req, res) {
     res.sendFile(path.join(__dirname, '../public/resources/paypal/subscribenowbtn.png'))
+  })
+
+  // JSON
+  app.get('/manifest.json', function (req, res) {
+    res.sendFile(path.join(__dirname, '../manifest/manifest.json'))
   })
   // app.get('/react-test', function (req, res) {
   //   res.sendFile(path.join(__dirname, "../config/components/collaborate/script.js"));
