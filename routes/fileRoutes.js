@@ -215,12 +215,55 @@ module.exports = ((app) => {
   // button image
   app.get('/subscribenowbtn.png', function (req, res) {
     res.sendFile(path.join(__dirname, '../public/resources/paypal/subscribenowbtn.png'))
+  });
+  // banner images
+  app.get('/blackSandCrop.jpg', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/images/blacksandorredCrop.jpg'))
+  });
+  app.get('/kam3Crop.jpg', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/images/kam3Crop.jpg'))
+  });
+  app.get('/sugBeachCrop.jpg', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/images/sugsithinkCrop.jpg'))
+  });
+  app.get('/bigsCrop.jpg', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/images/BigsCrop.jpg'))
+  });
+  app.get('/westsideCrop.jpg', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/images/westsideCrop.jpg'))
   })
+  app.get('/windmillCrop.jpg', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/images/windmillCrop.jpg'))
+  })
+  
+  
+
+  //mobile banner images
+  app.get('/blackSand.jpg', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/images/blacksandorred.jpg'))
+  });
+  app.get('/kam3.jpg', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/images/kam3viw.jpg'))
+  });
+  app.get('/sugBeach.jpg', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/images/sugsithink.jpg'))
+  });
+  app.get('/Bigs.jpg', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/images/Bigs.jpg'))
+  })
+  app.get('/westside.jpg', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/images/westside.jpg'))
+  })
+  app.get('/windmill.jpg', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/images/windmill.jpg'))
+  })
+  
+  
 
   // JSON
   app.get('/manifest.json', function (req, res) {
     res.sendFile(path.join(__dirname, '../manifest/manifest.json'))
-  })
+  });
   // Dependency Files
   app.get('/bootstrapCSS', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/deps/bootstrap.css"));
