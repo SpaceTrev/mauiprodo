@@ -13,6 +13,7 @@ html, body {
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* min-height: 100%; */
 }
 
 .page {
@@ -33,9 +34,30 @@ body {
     background-position: center;
 }
 
-.card-button {
-    margin-right: 2px;
-    margin-left: 2px;
+.text-paypal {
+    color: #fff !important;
+}
+
+.paypal-btn {
+    height: 38px !important;
+    width: 96px !important;
+    /* margin-top: 20px; */
+}
+
+.dropdown-bois:hover {
+    color: #307b92 !important;
+}
+
+.dropdown-bois:focus {
+    color: #31b0d5 !important;
+}
+
+.dropdown-bois:active {
+    color: #31b0d5 !important;
+}
+
+.btn-info {
+    background-color: #31b0d5;
 }
 
 .btn-info span {
@@ -68,28 +90,12 @@ body {
     transform: translateY(4px);
 }
 
-.dropdown-bois:hover {
-    color: #307b92 !important;
-}
-
-.dropdown-bois:focus {
-    color: #31b0d5 !important;
-}
-
-.dropdown-bois:active {
-    color: #31b0d5 !important;
-}
-
 .dropdown-menu {
     border: none !important;
 }
 
 .navbar-dark {
     background-color: rgba(28, 28, 28, .8);
-}
-
-.btn-info {
-    background-color: #31b0d5;
 }
 
 .mastfoot {
@@ -104,7 +110,7 @@ body {
 
 .footer-link {
     margin-top: 10px;
-    /* padding: px; */
+    /* padding: 20px; */
 }
 
 .link-style {
@@ -117,8 +123,16 @@ body {
     color: #31b0d5;
 }
 
-.navbar {
+/* .navbar {
     margin-top: -24px;
+} */
+
+.navbar-brand {
+    margin-left: 47px;
+}
+
+.navbar-nav {
+    margin-right: 47px;
 }
 
 .dropdown .dropdown-menu {
@@ -147,27 +161,10 @@ body {
     color: #307b92 !important;
 }
 
-.navbar-brand {
-    margin-left: 47px;
-}
-
-.navbar {
-    width: 100%;
-    box-sizing: content-box;
-}
-
-.navbar-toggler {
-    margin-right: 35px;
-}
-
-.navbar-nav {
-    margin-right: 47px;
-}
-
-.statement-heading {
+/* .statement-heading {
     background-color: rgba(28, 28, 28, .6);
     border-color: #31b0d5;
-}
+} */
 
 .statement-container {
     display: flex;
@@ -218,6 +215,11 @@ body {
 .card-text {
     color: #fff;
     /* text-shadow: 1px 1px #31b0d5; */
+}
+
+.paypal {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .insta-border {

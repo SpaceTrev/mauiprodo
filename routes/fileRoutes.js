@@ -85,6 +85,23 @@ module.exports = ((app) => {
   app.get("/early-adopters", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/discounts/early-adopters/index.html"))
   })
+  app.get("/composting", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/composting/index.html"))
+  })
+  app.get("/composting-business", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/composting/business/index.html"))
+  })
+  app.get("/composting-personal", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/composting/personal/index.html"))
+  })
+
+  app.get("/composting-help", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/composting/thanks/index.html"))
+  })
+
+  app.get("/composting-thanks", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/composting/help/index.html"))
+  })
   // app.get("/react", function (req, res) {
   //   res.sendFile(path.join(__dirname, "../public/pages/react-test/index.html"));
   // });
@@ -158,6 +175,26 @@ module.exports = ((app) => {
   app.get("/paid-options-style", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/collaborate/sub-pages/sustainability-map/paid-options/css/style.css"));
   });
+
+  app.get("/composting-main-style", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/composting/css/style.css"));
+  });
+
+  app.get("/composting-bus-style", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/composting/business/css/style.css"));
+  });
+
+  app.get("/composting-pers-style", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/composting/personal/css/style.css"));
+  });
+
+  app.get("/composting-help-style", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/composting/thanks/css/style.css"))
+  })
+
+  app.get("/composting-thanks-style", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/composting/help/css/style.css"))
+  })
 
 
   // Javascript Files
