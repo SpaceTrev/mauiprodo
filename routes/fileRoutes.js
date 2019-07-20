@@ -102,6 +102,10 @@ module.exports = ((app) => {
   app.get("/composting-thanks", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/composting/help/index.html"))
   })
+
+  app.get("/dance4wishes", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/tickets/index.html"))
+  })
   // app.get("/react", function (req, res) {
   //   res.sendFile(path.join(__dirname, "../public/pages/react-test/index.html"));
   // });
@@ -195,7 +199,9 @@ module.exports = ((app) => {
   app.get("/composting-thanks-style", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/pages/composting/help/css/style.css"))
   })
-
+  app.get("/dance4wishes-style", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/tickets/css/style.css"))
+  })
 
   // Javascript Files
 
@@ -214,6 +220,9 @@ module.exports = ((app) => {
   app.get('/club-makena-form-logic', function (req, res) {
     res.sendFile(path.join(__dirname, "../config/club-makena-form-js/logic.js"));
   });
+  app.get("/dance4wishes-logic", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/pages/tickets/logic/logic.js"))
+  })
   // app.get('/firebaseConfig', function (req, res) {
   //   res.sendFile(path.join(__dirname, "../config/firebase.js"));
   // });
@@ -272,9 +281,10 @@ module.exports = ((app) => {
   app.get('/windmillCrop.jpg', function (req, res) {
     res.sendFile(path.join(__dirname, '../public/resources/images/windmillCrop.jpg'))
   })
-  
-  
-
+ 
+  app.get('/dance4wishes.png', function (req, res) {
+    res.sendFile(path.join(__dirname, '../public/resources/images/dance4wishes.png'))
+  })
   //mobile banner images
   app.get('/blackSand.jpg', function (req, res) {
     res.sendFile(path.join(__dirname, '../public/resources/images/blacksandorred.jpg'))

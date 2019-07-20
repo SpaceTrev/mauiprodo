@@ -8,16 +8,36 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="/bootstrapCSS" rel="stylesheet" />
-    <link href="/style-products" rel="stylesheet" />
+    <link href="/dance4wishes-style" rel="stylesheet" />
     <script src="/jqueryMINjs" type="text/javascript"></script>
     <script src="/bootstrapJS" type="text/javascript"></script>
-    <script src="/shopify-logic-prod" type="text/javascript"></script>
+    <script src="/dance4wishes-logic" type="text/javascript"></script>
+    <script type="text/javascript">
+      function onReady(callback) {
+        var intervalId = window.setInterval(function() {
+          if (document.getElementsByTagName("body")[0] !== undefined) {
+            window.clearInterval(intervalId);
+            callback.call(this);
+          }
+        }, 1000);
+      }
 
+      function setVisible(selector, visible) {
+        document.querySelector(selector).style.display = visible
+          ? "block"
+          : "none";
+      }
+
+      onReady(function() {
+        setVisible(".page", true);
+        setVisible("#loading", false);
+      });
+    </script>
     <title>Maui Sustainable Solutions</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark mt-0">
+    <nav class="navbar navbar-expand-md navbar-dark">
       <a class="navbar-brand" href="/">Maui Sustainable Solutions</a>
       <button
         class="navbar-toggler"
@@ -66,44 +86,33 @@
         </ul>
       </div>
     </nav>
-    <div
-      style="border-color: #31b0d5 !important; margin-top: 147px;"
-      class="container rounded border insta-border text mx-auto"
-    >
-      <h2 class="insta-text">Sustainable Products</h2>
-    </div>
-    <div class="row deck1 mt-4">
-      <div class="col-lg-4 col-md-6 col-sm-6 col-10 mx-auto">
-        <div class="card card1 text-center">
-          <div class="card-body">
-            <h5 class="card-title">Eco-Kit Preorder</h5>
-            <p class="card-text"></p>
-            <div class="mx-auto shopify-buy__btn" id="product-component-846d39bf67a"></div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-6 col-10 mx-auto">
-        <div class="card card2 text-center">
-          <div class="card-body">
-            <h5 class="card-title">40oz Insulated Bottle</h5>
-            <p class="card-text"></p>
-            <div class="mx-auto shopify-buy__btn" id="product-component-9ec290dd9cb"></div>
-          </div>
-        </div>
-      </div>
-      <div style="margin-bottom: 50px;" class="col-lg-4 col-md-12 col-sm-12 col-10 mx-auto">
-        <div class="card card3 text-center card-right">
-          <div class="card-body">
-            <h5 class="card-title">Reef Safe Sunscreen</h5>
-            <p class="card-text"></p>
-            <div class="mx-auto shopify-buy__btn" id='product-component-bec265b5bdf'></div>
+    <div id="loading"></div>
+    <div class="page">
+      <br /><br />
 
+      <div class="container">
+        <div class="card mx-auto text-center bg-dark" style="width: 18rem;">
+          <img
+            class="card-img-top"
+            src="/dance4wishes.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Club Makena</h5>
+            <p class="card-text text-light">Dance 4 wishes event</p>
+            <div id="product-component-631530e6e87"></div>
           </div>
         </div>
+        <!-- mx-auto card card-map col-lg-8 col-md-8 col-sm-12 col-12 -->
       </div>
+      <br />
+      <!-- <div class="container text-center">
+            <a id="map-button" href="/sustainability-map-signup" class="btn btn-lg btn-info d-inline-block"><span>Sustainability
+          Map Sign-Up</span></a>
+        </div> -->
+
+      <br /><br />
     </div>
-    <br />
-    <br /><br />
     <div class="mastfoot">
       <div class="inner">
         <p class="footer-link">
@@ -117,24 +126,5 @@
         </p>
       </div>
     </div>
-    <!-- <script type="text/javascript">
-    function toggleFullScreen() {
-      var doc = window.document;
-      var docEl = doc.documentElement;
-
-      var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen ||
-        docEl.msRequestFullscreen;
-      var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc
-        .msExitFullscreen;
-
-      if (!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc
-        .msFullscreenElement) {
-        requestFullScreen.call(docEl);
-      } else {
-        cancelFullScreen.call(doc);
-      }
-    }
-    document.onload(toggleFullScreen())
-  </script> -->
   </body>
 </html>
