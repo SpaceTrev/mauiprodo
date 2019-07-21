@@ -12,27 +12,6 @@
     <script src="/jqueryMINjs" type="text/javascript"></script>
     <script src="/bootstrapJS" type="text/javascript"></script>
     <script src="/dance4wishes-logic" type="text/javascript"></script>
-    <script type="text/javascript">
-      function onReady(callback) {
-        var intervalId = window.setInterval(function() {
-          if (document.getElementsByTagName("body")[0] !== undefined) {
-            window.clearInterval(intervalId);
-            callback.call(this);
-          }
-        }, 1000);
-      }
-
-      function setVisible(selector, visible) {
-        document.querySelector(selector).style.display = visible
-          ? "block"
-          : "none";
-      }
-
-      onReady(function() {
-        setVisible(".page", true);
-        setVisible("#loading", false);
-      });
-    </script>
     <title>Maui Sustainable Solutions</title>
   </head>
 
@@ -86,7 +65,7 @@
         </ul>
       </div>
     </nav>
-    <div id="loading"></div>
+    <!-- <div id="loading"></div> -->
     <div class="page">
       <br /><br />
 
